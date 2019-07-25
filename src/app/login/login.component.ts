@@ -58,4 +58,8 @@ export class LoginComponent {
       this.errorMessage = err.message;
     })
   }
+  
+  goRegister(value){
+      this.router.navigate(['/register']);
+  }
 }
